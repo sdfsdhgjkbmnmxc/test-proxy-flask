@@ -22,3 +22,7 @@ optional arguments:
   --port PORT  Default port
 
 ```
+
+Once you run you can browse websites using the follwing url format
+ 
+http://localhost:PORT?q=http://habrahabr.ru
