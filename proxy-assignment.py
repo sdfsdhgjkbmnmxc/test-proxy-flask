@@ -41,7 +41,7 @@ def hello_world():
 
 def get_six_symbol_words(content):
     chunks = do_striptags(get_contents(content)).split(' ')
-    return set(filter(lambda x: len(x) == 6, chunks))
+    return {x for x in chunks if len(x) == 6}
 
 
 def get_contents(content):
